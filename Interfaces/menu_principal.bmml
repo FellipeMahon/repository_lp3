@@ -1,0 +1,38 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="787" measuredH="526" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="505" y="16" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="532" y="139" w="228" h="-1" measuredW="155" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Menu%20Principal</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::CheckBox" x="543" y="165" w="64" h="22" measuredW="58" measuredH="22" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20Online</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="578" y="234" w="-1" h="-1" measuredW="137" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>BulletsIcon%7Cxsmall</icon>
+        <text>Lista%20de%20Tarefas</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="583" y="280" w="-1" h="-1" measuredW="127" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cxsmall</icon>
+        <text>Configura%E7%F5es</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="608" y="325" w="-1" h="-1" measuredW="78" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>AIMIcon%7Cxsmall</icon>
+        <text>Logoff</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="532" y="115" w="228" h="-1" measuredW="173" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Task%20Manger%20-%20Ol%E1%20Usu%E1rio%21</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

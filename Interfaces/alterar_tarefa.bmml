@@ -1,0 +1,80 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="782" measuredH="513" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="500" y="3" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="528" y="102" w="226" h="-1" measuredW="94" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>16777215</color>
+        <text>Task%20Manager</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="528" y="126" w="226" h="-1" measuredW="92" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>Alterar%20Tarefa</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="540" y="377" w="-1" h="-1" measuredW="93" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>JumpBackIcon%7Cxsmall</icon>
+        <text>Retornar</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="540" y="163" w="203" h="140" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="542" y="163" w="-1" h="-1" measuredW="87" measuredH="20" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <size>12</size>
+        <text>Nome%20da%20tarefa%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="543" y="209" w="-1" h="-1" measuredW="58" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <size>12</size>
+        <text>Descri%E7%E3o%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="653" y="377" w="-1" h="-1" measuredW="81" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>UndoIcon%7Cxsmall</icon>
+        <menuIcon>false</menuIcon>
+        <text>Alterar</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::HRule" x="546" y="184" w="188" h="-1" measuredW="100" measuredH="10" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::HRule" x="546" y="199" w="188" h="-1" measuredW="100" measuredH="10" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::HRule" x="543" y="234" w="191" h="-1" measuredW="100" measuredH="10" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::HRule" x="543" y="250" w="191" h="-1" measuredW="100" measuredH="10" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::HRule" x="543" y="265" w="191" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::HRule" x="543" y="281" w="191" h="-1" measuredW="100" measuredH="10" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="538" y="311" w="-1" h="-1" measuredW="125" measuredH="20" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Tempo%20para%20conclus%E3o%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::RadioButton" x="580" y="338" w="-1" h="-1" measuredW="48" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>horas</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::RadioButton" x="633" y="338" w="-1" h="-1" measuredW="43" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>selected</state>
+        <text>Dias</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::TextInput" x="540" y="339" w="36" h="-1" measuredW="79" measuredH="23" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <state>focused</state>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
