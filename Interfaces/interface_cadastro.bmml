@@ -15,21 +15,7 @@
         <text>Cadastrar%20Usu%E1rio</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::TabBar" x="540" y="194" w="226" h="276" measuredW="188" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
-      <controlProperties>
-        <backgroundAlpha>0.5</backgroundAlpha>
-        <bold>true</bold>
-        <borderStyle>square</borderStyle>
-        <color>16777215</color>
-        <selectedIndex>0</selectedIndex>
-        <tabHPosition>center</tabHPosition>
-        <tabVPosition>top</tabVPosition>
-        <text>Passo%201%2C%20Passo%202</text>
-        <value>0</value>
-        <verticalScrollbar>false</verticalScrollbar>
-      </controlProperties>
-    </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="597" y="230" w="109" h="-1" measuredW="97" measuredH="20" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="597" y="230" w="109" h="-1" measuredW="97" measuredH="20" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <size>12</size>
@@ -37,44 +23,44 @@
         <textOrientation>right</textOrientation>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="556" y="324" w="191" h="-1" measuredW="79" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="556" y="324" w="191" h="-1" measuredW="79" measuredH="23" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>1</backgroundAlpha>
         <state>up</state>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextInput" x="568" y="260" w="169" h="-1" measuredW="79" measuredH="23" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextInput" x="568" y="260" w="169" h="-1" measuredW="79" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="625" y="294" w="53" h="-1" measuredW="37" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="625" y="294" w="53" h="-1" measuredW="37" measuredH="20" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <size>12</size>
         <text>E-mail%3A</text>
       </controlProperties>
     </control>
-    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="571" y="357" w="162" h="-1" measuredW="142" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="571" y="357" w="162" h="-1" measuredW="142" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <size>12</size>
         <text>Senha%285%20a%2010%20caracteres%29%3A</text>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextInput" x="605" y="388" w="93" h="-1" measuredW="79" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextInput" x="605" y="388" w="93" h="-1" measuredW="79" measuredH="23" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="597" y="430" w="108" h="25" measuredW="88" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="597" y="430" w="108" h="25" measuredW="88" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
         <icon>JumpOutIcon%7Cxsmall</icon>
         <text>Avan%E7ar</text>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::TextInput" x="540" y="146" w="226" h="-1" measuredW="94" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::TextInput" x="540" y="146" w="226" h="-1" measuredW="94" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <backgroundAlpha>0.5</backgroundAlpha>
