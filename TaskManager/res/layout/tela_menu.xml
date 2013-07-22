@@ -1,37 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TelaMenu" >
 
     <Button
-        android:id="@+id/lista_tarefas_button"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="74dp"
+        android:text="@string/logoff_button"
+        android:onClick="Logoff"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="62dp"
         android:text="@string/listaTarefas_button"
+        android:onClick="listaTarefas"
         android:textSize="22sp" />
 
     <Button
-        android:id="@+id/conta_button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/lista_tarefas_button"
+        android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="78dp"
         android:text="@string/conta_button"
-        android:textSize="22sp" />
-
-    <Button
-        android:id="@+id/logoff_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/conta_button"
-        android:layout_below="@+id/conta_button"
-        android:layout_marginTop="46dp"
-        android:text="@string/logoff_button"
+        android:onClick="Conta"
         android:textSize="22sp" />
 
 </RelativeLayout>

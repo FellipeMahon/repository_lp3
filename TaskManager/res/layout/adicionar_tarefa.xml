@@ -1,7 +1,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AdicionarTarefa" >
 
     <TextView
         android:id="@+id/textView1"
@@ -9,11 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/nomeTarefa_label"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="22sp" />
+        android:text="@string/nomeAdicionarTarefa_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
         android:id="@+id/editText1"
@@ -21,8 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="15dp"
-        android:ems="10"
+        android:layout_marginTop="19dp"
+        android:ems="14"
         android:inputType="number|text" >
 
         <requestFocus />
@@ -35,40 +37,40 @@
         android:layout_alignLeft="@+id/editText1"
         android:layout_below="@+id/editText1"
         android:layout_marginTop="17dp"
-        android:text="@string/descricaoTarefa_label"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="22sp" />
+        android:text="@string/descricaoAdicionarTarefa_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/editText1"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
-        android:inputType="textMultiLine"
-        android:minLines="7" />
+        android:inputType="textMultiLine" />
 
     <Button
-        android:id="@+id/voltarAddTarefa_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/salvarAddTarefa_button"
-        android:layout_alignBottom="@+id/salvarAddTarefa_button"
-        android:layout_toRightOf="@+id/textView1"
-        android:text="@string/voltarAddTarefa_button"
-        android:textSize="22sp" />
-
-    <Button
-        android:id="@+id/salvarAddTarefa_button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText2"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="36dp"
-        android:layout_marginLeft="25dp"
-        android:text="@string/salvarAddTarefa_button"
+        android:layout_below="@+id/editText2"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/salvarAdicionarTarefa_button"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/voltarAdicionarTarefa_button"
         android:textSize="22sp" />
 
 </RelativeLayout>

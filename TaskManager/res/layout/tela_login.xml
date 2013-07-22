@@ -6,45 +6,38 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".TelaLogin" >
 
-    <ImageView
-        android:id="@+id/task_icon"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:contentDescription="@string/task_icon"
-        android:src="@drawable/task_icon" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/usuario_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="number|text" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="19dp"
         android:text="@string/senha_label"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="22sp" />
-
-    <TextView
-        android:id="@+id/task_icon_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/task_icon"
-        android:layout_alignLeft="@+id/textView1"
-        android:text="@string/task_icon_label"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="35sp" />
-
-    <Button
-        android:id="@+id/cadastrar_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
-        android:text="@string/cadastro_button"
         android:textSize="22sp" />
 
     <EditText
@@ -52,41 +45,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="16dp"
+        android:layout_centerVertical="true"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
 
     <Button
-        android:id="@+id/entrar_button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:onClick="onClick"
+        android:layout_marginTop="38dp"
         android:text="@string/entrar_button"
+        android:onClick="telaMenu"
         android:textSize="22sp" />
 
-    <EditText
-        android:id="@+id/editText1"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
+        android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:inputType="text" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/editText1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:text="@string/usuario_label"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="25dp"
+        android:text="@string/cadastrese_button"
+        android:onClick="Cadastrese"
         android:textSize="22sp" />
-    
+
 </RelativeLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.taskmanagertaskmanager"
+    package="com.taskmanager.taskmanager"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,13 +14,33 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.taskmanager.taskmanager.MainActivity"
+            android:name="com.taskmanager.taskmanager.TelaLogin"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.taskmanager.taskmanager.TelaMenu"
+            android:label="@string/title_activity_tela_menu" >
+        </activity>
+        <activity
+            android:name="com.taskmanager.taskmanager.ListaTarefas"
+            android:label="@string/title_activity_lista_tarefas" >
+        </activity>
+        <activity
+            android:name="com.taskmanager.taskmanager.Conta"
+            android:label="@string/title_activity_conta" >
+        </activity>
+        <activity
+            android:name="com.taskmanager.taskmanager.AdicionarTarefa"
+            android:label="@string/title_activity_adicionar_tarefa" >
+        </activity>
+        <activity
+            android:name="com.taskmanager.taskmanager.TelaCadastro"
+            android:label="@string/title_activity_tela_cadastro" >
         </activity>
     </application>
 
